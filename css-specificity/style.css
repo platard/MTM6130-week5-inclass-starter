@@ -1,0 +1,40 @@
+/* Exercise 1 */
+#paragraph2 {
+    background-color: green;
+}
+
+.paragraph3 {
+    background-color: blue;
+}
+
+/* EXERCISE 2 */
+/* Lower specificity */
+#container2 .text2 {
+    color: red;
+}
+
+/* Higher specificity: combine an ID selector, a class selector and a element */
+ /* XXXXX {
+    color: blue;
+} */
+
+
+/* EXERCISE 3 */
+/* Lower specificity */
+.text3 {
+    color: blue;
+}
+
+/* Higher specificity: use multiple class selectors  */
+/* XXXXX {
+    color: red;
+  } */
+
+
+/* EXERCISE 4 */
+/* Lower specificity */
+.text4 {
+    color: blue ;
+  }
+
+/* Higher specificity: use inline style  */
